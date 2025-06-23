@@ -17,5 +17,4 @@ dbt-env/
 # OS-specific
 .DS_Store
 
-# Credentials (never commit this!)
-/Users/justin.chow/.dbt/profiles.yml
+
