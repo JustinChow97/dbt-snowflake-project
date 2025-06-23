@@ -2,3 +2,20 @@
 target/
 dbt_packages/
 logs/
+
+# DBT
+dbt_modules/
+dbt_packages/
+target/
+
+# Python
+__pycache__/
+*.pyc
+dbt-env/
+.env
+
+# OS-specific
+.DS_Store
+
+# Credentials (never commit this!)
+/Users/justin.chow/.dbt/profiles.yml
