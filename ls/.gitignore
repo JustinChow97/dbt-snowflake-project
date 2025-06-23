@@ -17,4 +17,5 @@ dbt-env/
 # OS-specific
 .DS_Store
 
-
+# Credentials (should not be committed)
+~/.dbt/profiles.yml
