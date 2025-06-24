@@ -1,9 +1,15 @@
+/*
 
+Default materialization is a view
 {{
   config(
-    materialized='table'
+    materialized='table' 
   )
 }}
+*/
+
+
+
 
 with customers as (
    select * from {{ref('stg_customers')}}
