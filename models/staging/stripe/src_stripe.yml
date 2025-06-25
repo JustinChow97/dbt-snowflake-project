@@ -11,3 +11,12 @@ sources:
             error_after: {count: 2, period: day}
             warn_after: {count: 2,period: day}
         
+          columns:
+            - name: paymentmethod
+              tests:
+                - accepted_values:
+                    values:
+                      - credit_card
+                      - coupon
+                      - bank_transfer
+                      - gift_card
